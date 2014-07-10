@@ -17,8 +17,8 @@
 		<nav>
 			<ul>
 				<li><img src="<?php echo STYLES; ?>/images/home.png"><a href="home.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="help.html">Help</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="help.html">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
