@@ -11,6 +11,8 @@
 <link href="<?php echo STYLES; ?>/footer.css" rel="stylesheet">
 <link href="<?php echo STYLES; ?>/header.css" rel="stylesheet">
 <link href="<?php echo STYLES; ?>/index.css" rel="stylesheet">
+<script type="text/javascript" src="<?php echo JS; ?>/jquery.js"></script>
+<script type="text/javascript" src="<?php echo JS; ?>/script.js"></script>
 
 </head>
 <body>
