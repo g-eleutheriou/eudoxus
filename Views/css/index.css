@@ -1,0 +1,90 @@
+html, body {
+	height: 100%;
+	/* IE10 Consumer Preview */
+	background-image: -ms-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
+	/* Mozilla Firefox */
+	background-image: -moz-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
+	/* Opera */
+	background-image: -o-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
+	/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #FFFFFF), color-stop(1, #E8E5E3));
+	/* Webkit (Chrome 11+) */
+	background-image: -webkit-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
+	/* W3C Markup, IE10 Release Preview */
+	background-image: radial-gradient(circle farthest-side at center, #FFFFFF 0%, #E8E5E3 100%);
+}
+
+#main {
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+	margin: 0 0 0 0;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	background: white;
+	overflow:hidden;
+}
+
+#content {
+	margin: 80px 0 0 130px;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	min-height: 300px;
+	height: 70%;
+	width: 60%;
+}
+
+.contentblock {
+	display: block;
+	padding: 15px 20px;
+}
+
+.contentblock.hidden {
+	display: none;
+}
+
+/* side navigation */
+#sidemenu {
+	margin: 100px 0 0 50px; 
+	padding: 0;
+	width: 80px;
+	float: left;
+	list-style: none;
+}
+
+#sidemenu li {
+	display: block;
+	text-align: center;
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 8px solid #666;
+	background-color: #ddd;
+	margin: 8px 0;
+}
+
+#sidemenu li:hover {
+	border-left: 8px solid #333;
+}
+
+#sidemenu li a {
+	display: block;
+	padding: 6px 2px;
+	color: #555;
+	text-decoration: none;
+}
+#sidemenu li a:hover {
+	color: #000;
+}
+
+#sidemenu li a.open {
+	border-right: none;
+	background-color: #fff;
+	border-left: 8px solid #006699;
+}
