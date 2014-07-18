@@ -2,16 +2,16 @@
 	<div id="top">
 		<!-- based on http://thecodeplayer.com/walkthrough/css3-breadcrumb-navigation-->
 		<div class="breadcrumb">
-			<a href="#" class="active">Home</a>
-			<a href="#"></a>
+			<a href="<?php echo HOME; ?>">Home</a>
+			<a href="#" class="active">About</a>
 		</div>
 	</div>
-	<aside>
+	<aside id="aside">
 		<p>
 			illustration
 		</p>
 	</aside>
-	<section>
+	<section id="article">
 		<article>
 			<header>
 				<h2>Title</h2>

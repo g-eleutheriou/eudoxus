@@ -13,6 +13,7 @@
 		<link href="<?php echo STYLES; ?>/index.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/breadcrumb.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/about.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/contact.css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo JS; ?>/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/script.js"></script>
 
@@ -20,22 +21,22 @@
 	<body>
 		<div id="main">
 			<div id="head">
-				<a id="logo" href="index.html">logo</a>
+				<a id="logo" href="<?php echo HOME; ?>">logo</a>
 				<div id="navmenu">
 
 					<nav>
 						<ul>
 							<li id="home">
-								<a href="index.html"> <span class="icon"></span> <span
+								<a href="<?php echo HOME; ?>"> <span class="icon"></span> <span
 								class="title">Home</span> </a>
 							</li>
 							<li id="about">
 								<a href="<?php echo PAGES; ?>/about"> <span class="icon"></span> <span
 								class="title">About</span> </a>
 							</li>
-							<li id="help">
-								<a href="#"> <span class="icon"></span> <span
-								class="title">Help</span> </a>
+							<li id="contact">
+								<a href="<?php echo PAGES; ?>/contact"> <span class="icon"></span> <span
+								class="title">Contact</span> </a>
 							</li>
 						</ul>
 					</nav>
@@ -58,7 +59,7 @@
 
 				<!-- based on http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/-->
 				<div id="popup">
-					<div>
+					<div id="inner-popup">
 						<a href="#close" title="Close" class="close">X</a>
 
 						<section id="form">

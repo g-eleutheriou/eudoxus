@@ -23,6 +23,11 @@ require_once 'Controller.php';
  	{
  		$this->view->render('page','about');
  	}
+	
+	public function contact()
+ 	{
+ 		$this->view->render('page','contact');
+ 	}
 
  	//generic error
  	public function error($value='')

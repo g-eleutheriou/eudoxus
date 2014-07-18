@@ -1,11 +1,11 @@
-aside {
+#aside {
 	float: left;
 	width: 30%;
 	background: url(../images/aside-bg.png) center top no-repeat;
 	margin: 0 0 20px 0;
 }
 
-section {
+#article {
 	float: right;
 	width: 60%;
 	padding-left: 20px;
@@ -13,7 +13,7 @@ section {
 	border-left: 2px dotted #b2a497;
 }
 
-section h2 {
+#article h2 {
 	font: 14pt Helvetica, "Helvetica neue", Arial, sans-serif;
 	font-weight: lighter;
 	text-transform: uppercase;

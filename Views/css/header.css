@@ -1,4 +1,5 @@
 #head {
+	overflow:hidden;
 	height: 100px;
 	width: 100%;
 	margin: 0 0 0 0;
@@ -124,8 +125,8 @@
 	width: 45px;
 }
 
-#help .icon {
-	background: url(../img/info.png) no-repeat;
+#contact .icon {
+	background: url(../img/email.png) no-repeat;
 	background-size: contain;
 	float: left;
 	height: 45px;
@@ -236,8 +237,9 @@
 	pointer-events: auto;
 }
 
-#popup > div {
+#inner-popup {
 	width: 400px;
+	height:45%;
 	position: relative;
 	margin: 10% auto;
 	padding: 10px 10px 10px 10px;
@@ -378,7 +380,7 @@ form:after {
 	text-decoration: underline;
 }
 
-select {
+#form select {
 	width: 60%;
 	padding: 12px;
 	margin: 4px 0 16px 0;
@@ -391,6 +393,6 @@ select {
 	outline: none;
 }
 
-select:hover {
+#form select:hover {
 	font-weight: bold;
 }
