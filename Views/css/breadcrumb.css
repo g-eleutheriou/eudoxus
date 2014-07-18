@@ -2,7 +2,7 @@
 	/*centering*/
 	margin: 30px 0 0 50px;
 	display: inline-block;
-	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.35);
 	overflow: hidden;
 	border-radius: 5px;
 	float:left;

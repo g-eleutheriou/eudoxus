@@ -1,5 +1,6 @@
 <div id="container">
 	<div id="top">
+		<!-- based on http://thecodeplayer.com/walkthrough/css3-breadcrumb-navigation-->
 		<div class="breadcrumb">
 			<a href="#" class="active">Home</a>
 			<a href="#"></a>
