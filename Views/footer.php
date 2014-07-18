@@ -1,4 +1,4 @@
-
+</div>
 <div id="foot">
 	<div id="social">
 		<a id="facebook" href="https://www.facebook.com/"> <span class="icon"></span>
@@ -16,7 +16,6 @@
 
 		</ul>
 	</div>
-</div>
 </div>
 </body>
 </html>
