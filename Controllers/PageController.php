@@ -28,6 +28,16 @@ require_once 'Controller.php';
  	{
  		$this->view->render('page','contact');
  	}
+	
+	public function register()
+ 	{
+ 		$this->view->render('page','register');
+ 	}
+	
+	public function login()
+ 	{
+ 		$this->view->render('page','login');
+ 	}
 
  	//generic error
  	public function error($value='')

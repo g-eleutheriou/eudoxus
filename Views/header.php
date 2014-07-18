@@ -14,6 +14,8 @@
 		<link href="<?php echo STYLES; ?>/breadcrumb.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/about.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/contact.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/register.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/login.css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo JS; ?>/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/script.js"></script>
 
@@ -83,7 +85,7 @@
 								<div>
 									<input type="submit" value="Log in" />
 									<a href="#">Lost your password?</a>
-									<a href="#">Register</a>
+									<a href="<?php echo PAGES; ?>/register" >Register</a>
 								</div>
 							</form><!-- form -->
 						</section><!-- content -->

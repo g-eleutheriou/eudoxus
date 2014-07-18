@@ -9,9 +9,10 @@
 	<div id="bottom">
 		<div id="right-col">
 			<div id="btn1">
+				<a href="<?php echo PAGES; ?>/register">
 				<button class="btn">
 					#1
-				</button>
+				</button> </a>
 			</div>
 			<div id="btn2">
 				<button class="btn">

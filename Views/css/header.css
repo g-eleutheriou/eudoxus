@@ -270,7 +270,7 @@
 	background: #00d9ff;
 }
 
-form:after {
+#inner-popup form:after {
 	content: ".";
 	display: block;
 	height: 0;
