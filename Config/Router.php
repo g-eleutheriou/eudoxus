@@ -13,16 +13,16 @@ class Router
 		$url = isset($_GET['url']) ? $_GET['url'] : null;
 		$url = rtrim($url, '/');
 		$url = explode('/', $url);
-		echo "test";
+		
 		//If no controller is defined then the PageController is required to show the home page of the application
 		if (empty($url[0])) 
-		{
+		{	
 			require_once 'Controllers/PageController.php';
 			$page = new PageController();
 			$page->index();
 			return false;
 		}
-
+		
 		//	Create controller's name from the url
 		$url[0] = ucfirst ( $url[0] );
 		$url[0] .= "Controller";
@@ -109,10 +109,10 @@ class Router
 
 	function checkForIntrusion()
 	{
-		if (!isset($_SESSION['success_logged_in'])) {
+	/*	if (!isset($_SESSION['success_logged_in'])) {error_log(print_r("checkForIntrusion", TRUE));
 			require_once 'Controllers/PageController.php';
 			$page = new PageController;
 			$page->redirect(HOME);
-		}
+		}*/
 	}
 }
