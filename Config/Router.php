@@ -13,7 +13,7 @@ class Router
 		$url = isset($_GET['url']) ? $_GET['url'] : null;
 		$url = rtrim($url, '/');
 		$url = explode('/', $url);
-
+		echo "test";
 		//If no controller is defined then the PageController is required to show the home page of the application
 		if (empty($url[0])) 
 		{

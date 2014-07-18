@@ -18,6 +18,11 @@ require_once 'Controller.php';
  	{
  		$this->view->render('page');
  	}
+	
+	public function about()
+ 	{
+ 		$this->view->render('page','about');
+ 	}
 
  	//generic error
  	public function error($value='')

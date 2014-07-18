@@ -12,6 +12,7 @@
 		<link href="<?php echo STYLES; ?>/header.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/index.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/breadcrumb.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/about.css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo JS; ?>/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/script.js"></script>
 
@@ -29,7 +30,7 @@
 								class="title">Home</span> </a>
 							</li>
 							<li id="about">
-								<a href="#"> <span class="icon"></span> <span
+								<a href="<?php echo PAGES; ?>/about"> <span class="icon"></span> <span
 								class="title">About</span> </a>
 							</li>
 							<li id="help">

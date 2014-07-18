@@ -6,4 +6,5 @@
 	define('STYLES', HOME . '/Views/css');
 	define('JS', HOME . '/Views/js');
 	define('USERS', HOME . '/users');
+	define('PAGES', HOME . '/page');
 	define('BACK', '..');
