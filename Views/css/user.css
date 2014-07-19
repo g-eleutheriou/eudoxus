@@ -1,11 +1,11 @@
-#tabhost{
-	height:90%;
-	width:100%;
+#tabhost {
+	height: 90%;
+	width: 100%;
 }
 
 /* side navigation */
 .tabmenu {
-	margin: 40px 0 0 30px; 
+	margin: 40px 0 0 30px;
 	padding: 0;
 	width: 120px;
 	float: left;
@@ -13,7 +13,7 @@
 }
 
 .tabmenu li {
-	height:80px;
+	height: 80px;
 	display: block;
 	text-align: center;
 	border-top: 1px solid #666;
@@ -30,8 +30,8 @@
 
 .tabmenu li a {
 	line-height: 1;
-	font-size:14px;
-	height:68px;
+	font-size: 14px;
+	height: 68px;
 	display: block;
 	padding: 6px 2px;
 	color: #555;
@@ -45,4 +45,143 @@
 .tabmenu li a.open {
 	border-right: none;
 	background-color: #badeee;
+}
+
+#tabhost > .content > h2 {
+	text-align: center;
+}
+
+.boxtitle {
+	width: 600px;
+	margin: 80px 0 0 30px;
+}
+
+.profilebox {
+	background-color: #badeee;
+	width: 600px;
+	margin: 0px 0 0 30px;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+}
+
+#tab2 > .profilebox {
+	height: 450px;
+}
+
+#tab2 > .boxtitle {
+	margin: 60px 0 0 30px;
+}
+
+#tab3 > .profilebox {
+	height: 450px;
+}
+
+#tab3 > .boxtitle {
+	margin: 20px 0 0 30px;
+}
+
+.profilebox table {
+	margin: 20px auto 20px auto;
+	width: 90%;
+}
+
+#content   input[type="submit"] {
+	background: rgb(254,231,154);
+	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	filter: progid:DXImageTranslogin-form.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	cursor: pointer;
+	float: left;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 30px 0 20px 270px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 120px;
+}
+#content   input[type="submit"]:hover {
+	background: rgb(254,193,81);
+	background: -moz-linear-gradient(top,  rgba(254,193,81,1) 0%, rgba(254,231,154,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	filter: progid:DXImageTranslogin-form.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
+}
+
+#tab2Table, #tab3Table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 15px;
+	background: #fff;
+	margin: 20px auto 45px auto;
+	width: 90%;
+	border-collapse: collapse;
+	text-align: left;
+}
+#tab2Table th, #tab3Table  th {
+	font-size: 16px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+#tab2Table td, #tab3Table  td {
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	padding: 6px 8px;
+}
+#tab2Table tbody tr:hover td, #tab3Table  tbody tr:hover td {
+	color: #009;
+}
+
+.icon-green {
+	width: 50px;
+	background: url("../img/green.png") no-repeat;
+	background-size: 100% 50px;
+	height: 50px;
+}
+
+.icon-yellow {
+	width: 50px;
+	background: url("../img/yellow.png") no-repeat;
+	background-size: 100% 50px;
+	height: 50px;
+}
+
+.icon-red {
+	width: 50px;
+	background: url("../img/red.png") no-repeat;
+	background-size: 100% 50px;
+	height: 50px;
+}
+
+.tab3InfoContainer {
+	margin: 5px auto 0 auto;
+	display: table;
+}
+
+.tab3Icon {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.tab3Text {
+	padding: 0 4px 0 4px;
+	vertical-align: middle;
+	display: table-cell;
 }

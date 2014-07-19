@@ -58,6 +58,11 @@ require_once 'Controller.php';
  	{
  		$this->view->render('page','user');
  	}
+	
+	public function userEdit()
+ 	{
+ 		$this->view->render('page','userEdit');
+ 	}
 
  	//generic error
  	public function error($value='')

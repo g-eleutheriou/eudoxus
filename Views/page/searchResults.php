@@ -20,7 +20,7 @@
 	</section>
 	<section id="results">
 		<div class="ResultsTable" >
-			<table class="tablesorter" id="hor-minimalist-b" summary="Employee Pay Sheet">
+			<table class="tablesorter" id="hor-minimalist-b">
 				<thead>
 					<tr>
 						<th scope="col">#</th>
