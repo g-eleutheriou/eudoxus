@@ -16,7 +16,11 @@
 		<link href="<?php echo STYLES; ?>/contact.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/register.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/login.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/search.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/aSearch.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/searchResults.css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo JS; ?>/jquery.js"></script>
+		<script type="text/javascript" src="<?php echo JS; ?>/oneSimpleTablePaging-1.0.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/script.js"></script>
 
 	</head>

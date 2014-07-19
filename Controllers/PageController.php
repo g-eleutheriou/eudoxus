@@ -38,6 +38,21 @@ require_once 'Controller.php';
  	{
  		$this->view->render('page','login');
  	}
+	
+	public function search()
+ 	{
+ 		$this->view->render('page','search');
+ 	}
+	
+	public function aSearch()
+ 	{
+ 		$this->view->render('page','aSearch');
+ 	}
+	
+	public function searchResults()
+ 	{
+ 		$this->view->render('page','searchResults');
+ 	}
 
  	//generic error
  	public function error($value='')

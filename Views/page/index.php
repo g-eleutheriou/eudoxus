@@ -11,13 +11,14 @@
 			<div id="btn1">
 				<a href="<?php echo PAGES; ?>/register">
 				<button class="btn">
-					#1
+					Register
 				</button> </a>
 			</div>
 			<div id="btn2">
+				<a href="<?php echo PAGES; ?>/search">
 				<button class="btn">
-					#2
-				</button>
+					Search
+				</button> </a>
 			</div>
 			<div id="btn3">
 				<button class="btn">
