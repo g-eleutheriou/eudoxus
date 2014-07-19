@@ -21,9 +21,10 @@
 				</button> </a>
 			</div>
 			<div id="btn3">
+				<a href="<?php echo PAGES; ?>/user">
 				<button class="btn">
-					#3
-				</button>
+					Profile
+				</button> </a>
 			</div>
 			<div id="btn4">
 				<button class="btn">
@@ -37,7 +38,7 @@
 			</div>
 		</div>
 		<div id="left-col">
-			<ul id="sidemenu">
+			<ul id="sidemenu" class="sidemenu">
 				<li>
 					<a href="#home-content" class="open"><strong>Home</strong></a>
 				</li>
@@ -55,7 +56,7 @@
 				</li>
 			</ul>
 
-			<div id="content">
+			<div id="content" class="content">
 				<div id="home-content" class="contentblock">
 					<h1>The Main Page!</h1>
 				</div>

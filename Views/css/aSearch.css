@@ -1,50 +1,50 @@
 #aSearch-logo {
 	background: url(../img/logo-big.png) no-repeat;
-	background-size: 100% 150px;
-	height: 150px;
-	width: 15%;
-	max-width: 150px;
-	float:left;
-	margin: 45px 5px 0 10px;
+	background-size: 100% 300px;
+	height: 300px;
+	width: 400px;
+	margin: 50px auto 30px auto;
 }
 
 #aSearch-btn {
-	width: 10%;
-	margin: 98px 0 0 5px;
+	width: 400px;
+	margin: 20px auto 0 auto;
 	text-align: center;
-	float:left;
 }
 
 #aSearch-btn a {
 	color: #004a80;
-	font-size: 14px;
+	margin-left: 8px;
+	font-size: 16px;
 }
 
 #aSearch-form {
-	height: 200px;
-	width: 70%;
-	max-width: 600px;
-	float:left;
-	margin: 20px 5px 0 10px;
+	height: 250px;
+	width: 650px;
+	margin: 20px auto 0 auto;
 	background: #D2E9FF;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 }
 
 #left-form {
-	width: 40%;
+	width: 35%;
 	float:left;
-	margin: 5px 0px 0 10px;
+	margin: 5px 0px 0 20px;
 }
 
 #right-form {
-	width: 40%;
+	width: 35%;
 	float:left;
 	margin: 5px 0px 0 0px;
 }
 
 #aSearch-bot {
+	height: 80px;
 	width: 15%;
-	float:left;
-	margin: 98px 10px 0 0;
+	float:right;
+	margin: 108px 15px 0 0;
 }
 
 #searchSubmit  {

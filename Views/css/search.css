@@ -13,10 +13,10 @@
 
 #search-logo {
 	background: url(../img/logo-big.png) no-repeat;
-	background-size: 100% 200px;
-	height: 200px;
+	background-size: 100% 300px;
+	height: 300px;
 	width: 400px;
-	margin: 20px auto 30px auto;
+	margin: 50px auto 30px auto;
 }
 
 #search-btn {

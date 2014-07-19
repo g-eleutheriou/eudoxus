@@ -1,27 +1,18 @@
 html, body {
-height: 100%;
+	height: 100%;
+	width: 100%;
 	padding: 0;
-      margin: 0;
-
-	/* IE10 Consumer Preview */
-	background-image: -ms-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
-	/* Mozilla Firefox */
-	background-image: -moz-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
-	/* Opera */
-	background-image: -o-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
-	/* Webkit (Safari/Chrome 10) */
-	background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #FFFFFF), color-stop(1, #E8E5E3));
-	/* Webkit (Chrome 11+) */
-	background-image: -webkit-radial-gradient(center, circle farthest-side, #FFFFFF 0%, #E8E5E3 100%);
-	/* W3C Markup, IE10 Release Preview */
-	background-image: radial-gradient(circle farthest-side at center, #FFFFFF 0%, #E8E5E3 100%);
+     margin: 0;
+	background: url("../img/background") no-repeat;
+     background-size: cover;
 }
 
 #main {
-	height: 100%;
+	margin : 0 auto 0 auto;
+	height: 1000px;
 	position:relative;
-	min-height: 100%;
-	width: 100%;
+	min-height: 1000px;
+	width: 1000px;
 }
 
 #top {
@@ -36,40 +27,46 @@ height: 100%;
 
 #left-col {
 	height: 100%;
-	width: 70%;
+	width: 85%;
 	float: left;
 }
 
 #right-col {
 	height: 100%;
-	width: 20%;
+	width: 15%;
 	float: right;
 }
 
 #container {
+	background: white;
 	height:100%;
 	width: 100%;
 	margin: 0 0 0 0;
 	border: 1px solid #dedede;
 	border-radius: 8px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-	background: white;
-	padding-bottom: 80px;
 }
 
-#content {
-	margin: 20px 0 0 170px;
+.content {
+	background-color: #badeee;
+	margin: 30px 0 0 150px;
 	border: 1px solid #dedede;
 	border-radius: 8px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 	min-height: 300px;
-	height: 70%;
-	width: 90%;
+	height: 80%;
+	width: 700px;
 }
 
 .contentblock {
+	background: white;
+	height: 680px;
+	width: 95%;
+	margin:  21px auto 0 auto;
 	display: block;
-	padding: 15px 20px;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
 }
 
 .contentblock.hidden {
@@ -77,15 +74,15 @@ height: 100%;
 }
 
 /* side navigation */
-#sidemenu {
-	margin: 40px 0 0 50px; 
+.sidemenu {
+	margin: 40px 0 0 30px; 
 	padding: 0;
 	width: 120px;
 	float: left;
 	list-style: none;
 }
 
-#sidemenu li {
+.sidemenu li {
 	height:80px;
 	display: block;
 	text-align: center;
@@ -97,11 +94,11 @@ height: 100%;
 	margin: 8px 0;
 }
 
-#sidemenu li:hover {
+.sidemenu li:hover {
 	border-left: 8px solid #333;
 }
 
-#sidemenu li a {
+.sidemenu li a {
 	line-height: 3;
 	font-size:20px;
 	height:68px;
@@ -111,11 +108,11 @@ height: 100%;
 	text-decoration: none;
 }
 
-#sidemenu li a:hover {
+.sidemenu li a:hover {
 	color: #000;
 }
 
-#sidemenu li a.open {
+.sidemenu li a.open {
 	border-right: none;
 	background-color: #badeee;
 }
@@ -138,8 +135,7 @@ height: 100%;
 	-moz-border-radius-bottomleft: 20px;
 	border-bottom-left-radius: 20px;
 	border: 1px solid #eeb44f;
-	width: 70%;
-	max-width: 200px;
+	width: 100px;
 	height: 80px;
 }
 
@@ -156,9 +152,9 @@ height: 100%;
 }
 
 #btn1 {
-	margin: 60px 10px 0 10px;	
+	margin: 60px 0 0 20px;	
 }
 
 #btn2,#btn3,#btn4,#btn5 {
-	margin: 10px 10px 0 10px;
+	margin: 10px 0 0 20px;
 }

@@ -42,7 +42,7 @@
 	</div>
 	</section><!-- content -->
 	<section id="aSearch-btn">
-		<a href="<?php echo PAGES; ?>/search">Simple Search</a><br></br>
+		<a href="<?php echo PAGES; ?>/search">Simple Search</a>
 		<a href="<?php echo PAGES; ?>/register" >Help</a>
 	</section>
 </div>

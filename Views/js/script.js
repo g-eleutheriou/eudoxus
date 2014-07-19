@@ -17,7 +17,4 @@ $(function() {
 			$(this).addClass('open');
 		}
 	});
-
-	
-
 });

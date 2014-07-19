@@ -53,6 +53,11 @@ require_once 'Controller.php';
  	{
  		$this->view->render('page','searchResults');
  	}
+	
+	public function user()
+ 	{
+ 		$this->view->render('page','user');
+ 	}
 
  	//generic error
  	public function error($value='')
