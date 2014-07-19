@@ -29,7 +29,7 @@
 
 #search-btn {
 	width: 400px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 60px auto;
 	text-align: center;
 }
 
@@ -45,7 +45,7 @@
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 14px;
 	background: #fff;
-	margin: 45px auto 45px auto;
+	margin: 40px auto 45px auto;
 	width: 65%;
 	border-collapse: collapse;
 	text-align: left;

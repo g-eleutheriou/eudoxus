@@ -121,7 +121,7 @@
 	$(document).ready(function() {
 		// call the tablesorter plugin
 		// $(function(){
-		$("#hor-minimalist-b").oneSimpleTablePagination({rowsPerPage: 4});
+		$("#hor-minimalist-b").oneSimpleTablePagination({rowsPerPage: 4 ,topNav: true});
 	});
 
 </script>
