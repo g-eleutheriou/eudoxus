@@ -21,6 +21,8 @@
 		<link href="<?php echo STYLES; ?>/searchResults.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/user.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/links.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/historyForm1.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/bookSelect.css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo JS; ?>/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/oneSimpleTablePaging-1.0.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/script.js"></script>
@@ -55,6 +57,7 @@
 							<input placeholder="Search here" type="text" />
 						</form>
 					</div>
+					<?php if (!isset($_SESSION['username'])): ?>
 					<div id="user-btn">
 						<p>
 							<a href="#popup">
@@ -63,6 +66,7 @@
 							</button> </a>
 						</p>
 					</div>
+
 				</div>
 
 				<!-- based on http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/-->
@@ -71,30 +75,48 @@
 						<a href="#close" title="Close" class="close">X</a>
 
 						<section id="form">
-							<form action="">
 								<h1>Login Form</h1>
-								<select>
-									<option>--- Choose Age From Here ---</option>
-									<option>Below 18 years</option>
-									<option>Between 18-25 years</option>
-									<option>Between 25-40 years</option>
-									<option>Between 40-60 years</option>
-									<option>Above 60 years</option>
-								</select>
+								<form onsubmit="return check()" method="post" action="<?php echo USERS; ?>/login">
+									<div>
+										<input type="text" name="username" placeholder="Username" required="" id="username" />
+									</div>
+									<div>
+										<input type="password" name="password" placeholder="Password" required="" id="password" />
+									</div>
+									<div>
 
-								<div>
-									<input type="text" placeholder="Username" required="" id="username" />
-								</div>
-								<div>
-									<input type="password" placeholder="Password" required="" id="password" />
-								</div>
-								<div>
-									<input type="submit" value="Log in" />
-									<a href="#">Lost your password?</a>
-									<a href="<?php echo PAGES; ?>/register" >Register</a>
-								</div>
-							</form><!-- form -->
-						</section><!-- content -->
+										<input type="submit" value="Log in" />
+								</form>
+								<a href="#">Lost your password?</a>
+								<a href="<?php echo PAGES; ?>/register" >Register</a>
 					</div>
+					</section><!-- content -->
 				</div>
 			</div>
+			<?php else: ?>
+			<div id="user-btn">
+				<p>
+					<a href="#popup">
+					<button id="login" href="#popup">
+						<span class="icon"></span><span class="text">Profile</span>
+					</button> </a>
+				</p>
+			</div>
+
+		</div>
+
+		<!-- based on http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/-->
+		<div id="popup">
+			<div id="inner-popup">
+				<a href="#close" title="Close" class="close">X</a>
+
+				<section id="form">
+						<h1>Profile</h1>
+						<h5>Logged as, <?php echo $_SESSION['username']; ?></h5>
+						<a href="<?php echo PAGES; ?>/user"><button id="profilebtn" class="button">Profile</button></a>
+						<a href="<?php echo USERS; ?>/logout"><button id="logoutbtn" class="button">Logout</button></a>
+			</section><!-- content -->
+		</div>
+		</div>
+		<?php endif ?>
+		</div>

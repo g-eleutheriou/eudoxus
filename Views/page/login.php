@@ -7,28 +7,17 @@
 		</div>
 	</div>
 	<section id="login-form">
-		<form action="">
 			<h1>Login Form</h1>
-			<select>
-				<option>--- Choose Age From Here ---</option>
-				<option>Below 18 years</option>
-				<option>Between 18-25 years</option>
-				<option>Between 25-40 years</option>
-				<option>Between 40-60 years</option>
-				<option>Above 60 years</option>
-			</select>
-
-			<div>
-				<input type="text" placeholder="Username" required="" id="username" />
-			</div>
-			<div>
-				<input type="password" placeholder="Password" required="" id="password" />
-			</div>
-			<div>
+			<form  method="post" action="<?php echo USERS; ?>/login">
+				<input name="username" type="text" placeholder="Username" required id="username" />
+				<input name="password" type="password" placeholder="Password" required id="password" />
 				<input type="submit" value="Log in" />
 				<a href="#">Lost your password?</a>
 				<a href="<?php echo PAGES; ?>/register" >Register</a>
-			</div>
+			</form>
+
 		</form><!-- form -->
 	</section><!-- content -->
 </div>
+
+<script>

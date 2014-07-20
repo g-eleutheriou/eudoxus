@@ -134,7 +134,7 @@
 	outline: none;
 	padding: 3px 5px 3px 20px;
 	width: 50%;
-	max-width: 180px;
+	max-width: 150px;
 	/* CSS3 */
 	border-radius: 5px;
 	-webkit-transition: 0.3s;
@@ -150,7 +150,7 @@
 #search input:focus {
 	opacity: 1;
 	width: 90%;
-	max-width: 180px;
+	max-width: 150px;
 }
 
 #login {
@@ -283,6 +283,12 @@
 	margin: 10px 0 20px;
 }
 
+#form h5 {
+	font: bold 25px Helvetica, Arial, sans-serif;
+	line-height: 20px;
+	margin: 10px 0 20px;
+}
+
 #form form {
 	margin: 0 20px;
 	position: relative
@@ -384,4 +390,19 @@
 
 #form select:hover {
 	font-weight: bold;
+}
+
+#form .button {
+	margin: 20px 0 0 0;
+	padding: 10px 30px 10px 30px;
+	background: #66C1E4;
+	border: none;
+	color: #FFF;
+	box-shadow: 1px 1px 1px #4C6E91;
+	-webkit-box-shadow: 1px 1px 1px #4C6E91;
+	-moz-box-shadow: 1px 1px 1px #4C6E91;
+	text-shadow: 1px 1px 1px #5079A3;
+}
+#form .button:hover {
+	background: #3EB1DD;
 }

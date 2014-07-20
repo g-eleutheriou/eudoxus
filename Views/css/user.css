@@ -185,3 +185,7 @@
 	vertical-align: middle;
 	display: table-cell;
 }
+
+.contentblock h2 {
+	text-align: center;
+}

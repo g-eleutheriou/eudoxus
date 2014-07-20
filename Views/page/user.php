@@ -98,27 +98,27 @@
 							<tr>
 								<td>26/04/2013</td>
 								<td>Winter</td>
-								<td><a href="#">Check</a></td>
+								<td><a href="<?php echo PAGES; ?>/historyForm1">Check</a></td>
 							</tr>
 							<tr>
 								<td>26/04/2013</td>
 								<td>Summer</td>
-								<td><a href="#">Check</a></td>
+								<td><a href="<?php echo PAGES; ?>/historyForm1">Check</a></td>
 							</tr>
 							<tr>
 								<td>26/04/2013</td>
 								<td>Summer</td>
-								<td><a href="#">Check</a></td>
+								<td><a href="<?php echo PAGES; ?>/historyForm1">Check</a></td>
 							</tr>
 							<tr>
 								<td>26/04/2013</td>
 								<td>Summer</td>
-								<td><a href="#">Check</a></td>
+								<td><a href="<?php echo PAGES; ?>/historyForm1">Check</a></td>
 							</tr>
 							<tr>
 								<td>26/04/2013</td>
 								<td>Summer</td>
-								<td><a href="#">Check</a></td>
+								<td><a href="<?php echo PAGES; ?>/historyForm1">Check</a></td>
 							</tr>
 							<tr>
 								<td>26/04/2013</td>

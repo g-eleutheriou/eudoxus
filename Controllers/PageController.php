@@ -9,6 +9,7 @@ require_once 'Controller.php';
  */
  class PageController extends Controller
  {
+ 		
  	function __construct()
  	{
  		parent::__construct();
@@ -69,6 +70,21 @@ require_once 'Controller.php';
  		$this->view->render('page','links');
  	}
 
+	public function historyForm1()
+ 	{
+ 		$this->view->render('page','historyForm1');
+ 	}
+	
+	public function historyForm2()
+ 	{
+ 		$this->view->render('page','historyForm2');
+ 	}
+	
+	public function bookSelect()
+ 	{
+ 		$this->view->render('page','bookSelect');
+ 	}
+	
  	//generic error
  	public function error($value='')
  	{
@@ -79,24 +95,24 @@ require_once 'Controller.php';
  	public function error404($value='')
  	{
  		$this->view->msg = $value;
-		$this->view->render('page', 'error404', null, true);
+		$this->view->render('page', 'error', null, true);
  	}
 
  	public function error501($value='')
  	{
  		$this->view->msg = $value;
-		$this->view->render('page', 'error501', null, true);
+		$this->view->render('page', 'error', null, true);
  	}
 
  	public function errordb($value='')
  	{
  		$this->view->msg = $value;
-		$this->view->render('page', 'errordb', null, true);
+		$this->view->render('page', 'error', null, true);
  	}
 
 	public function error_accdenied()
 	{
-		$this->view->render('page', 'accdenied', null, true);
+		$this->view->render('page', 'error', null, true);
 	}
 
  	public function redirect($url) //aka view
