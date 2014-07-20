@@ -8,8 +8,8 @@
 	</div>
 	<div id="links">
 		<ul>
-			<li><a href="<?php echo PAGES; ?>/links">links</a></li>
-			<li><a href="http://eudoxus.gr/Files/Terms_and_Conditions_v1.pdf">rules</a></li>
+			<li><a href="<?php echo PAGES; ?>/links">Χρήσιμα links</a></li>
+			<li><a href="http://eudoxus.gr/Files/Terms_and_Conditions_v1.pdf">Όροι Χρήσης</a></li>
 			<li><a>EAM TEAM 30 &copy; 2014</a></li>
 		</ul>
 	</div>

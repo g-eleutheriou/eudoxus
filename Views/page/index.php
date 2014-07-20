@@ -2,7 +2,7 @@
 	<div id="top">
 		<!-- based on http://thecodeplayer.com/walkthrough/css3-breadcrumb-navigation-->
 		<div class="breadcrumb">
-			<a href="#" class="active">Home</a>
+			<a href="#" class="active">Αρχίκη</a>
 			<a href="#"></a>
 		</div>
 	</div>
@@ -48,29 +48,29 @@
 		<div id="left-col">
 			<ul id="sidemenu" class="sidemenu">
 				<li>
-					<a href="#home-tab1" class="open"><strong>Welcome</strong></a>
+					<a href="#home-tab1" class="open"><strong>Γενίκα</strong></a>
 				</li>
 
 				<li>
-					<a href="#home-tab2"><strong>News</strong></a>
+					<a href="#home-tab2"><strong>Νέα</strong></a>
 				</li>
 
 				<li>
-					<a href="#home-tab3"><strong>Students</strong></a>
+					<a href="#home-tab3"><strong>Φοιτήτες</strong></a>
 				</li>
 
 				<li>
-					<a href="#home-tab4"><strong>Publishers</strong></a>
+					<a href="#home-tab4"><strong>Εκδότες</strong></a>
 				</li>
 
 				<li>
-					<a href="#home-tab5"><strong>Employees</strong></a>
+					<a href="#home-tab5"><strong>Γραμματίες</strong></a>
 				</li>
 			</ul>
 
 			<div id="content" class="content">
 				<div id="home-tab1" class="contentblock">
-					<h2>Welcome!</h2>
+					<h2>Καλος Ήρθατε!</h2>
 					<div id="home-tab1-img"></div>
 					<article id="home-tab1-text">
 						<h4>ΗΛΕΚΤΡΟΝΙΚΗ ΥΠΗΡΕΣΙΑ ΟΛΟΚΛΗΡΩΜΕΝΗΣ ΔΙΑΧΕΙΡΙΣΗΣ ΣΥΓΓΡΑΜΜΑΤΩΝ</h4>
@@ -87,12 +87,12 @@
 					</article>
 				</div>
 				<div id="home-tab2" class="contentblock hidden">
-					<h2>News!</h2>
+					<h2>Νέα!</h2>
 					<table class="tablesorter" id="newsTable">
 						<thead>
 							<tr>
-								<th scope="col">Date</th>
-								<th scope="col">Title</th>
+								<th scope="col">Ημερομηνία</th>
+								<th scope="col">Τίτλος</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -157,7 +157,7 @@
 					</table>
 				</div>
 				<div id="home-tab3" class="contentblock hidden">
-					<h2>Students</h2>
+					<h2>Φοιτητές</h2>
 					<div id="home-tab3-img"></div>
 					<article id="home-tab3-text">
 						<h4>ΗΛΕΚΤΡΟΝΙΚΗ ΥΠΗΡΕΣΙΑ ΟΛΟΚΛΗΡΩΜΕΝΗΣ ΔΙΑΧΕΙΡΙΣΗΣ ΣΥΓΓΡΑΜΜΑΤΩΝ</h4>
@@ -183,7 +183,7 @@
 					</article>
 				</div>
 				<div id="home-tab4" class="contentblock hidden">
-					<h2>Publishers</h2>
+					<h2>Εκδότες</h2>
 					<div id="home-tab4-img"></div>
 					<article id="home-tab4-text">
 						<h4>ΗΛΕΚΤΡΟΝΙΚΗ ΥΠΗΡΕΣΙΑ ΟΛΟΚΛΗΡΩΜΕΝΗΣ ΔΙΑΧΕΙΡΙΣΗΣ ΣΥΓΓΡΑΜΜΑΤΩΝ</h4>
@@ -202,7 +202,7 @@
 					</article>
 				</div>
 				<div id="home-tab5" class="contentblock hidden">
-					<h2>Employees</h2>
+					<h2>Γραμματίες</h2>
 					<div id="home-tab5-img"></div>
 					<article id="home-tab5-text">
 						<h4>ΗΛΕΚΤΡΟΝΙΚΗ ΥΠΗΡΕΣΙΑ ΟΛΟΚΛΗΡΩΜΕΝΗΣ ΔΙΑΧΕΙΡΙΣΗΣ ΣΥΓΓΡΑΜΜΑΤΩΝ</h4>

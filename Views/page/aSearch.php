@@ -2,9 +2,9 @@
 	<div id="top">
 		<!-- based on http://thecodeplayer.com/walkthrough/css3-breadcrumb-navigation-->
 		<div class="breadcrumb">
-			<a href="<?php echo HOME; ?>">Home</a>
-			<a href="<?php echo PAGES; ?>/search">Search</a>
-			<a href="#" class="active">Advanced Search</a>
+			<a href="<?php echo HOME; ?>">Αρχίκη</a>
+			<a href="<?php echo PAGES; ?>/search">Αναζήτηση</a>
+			<a href="#" class="active">Συνθετή Αναζήτηση</a>
 		</div>
 	</div>
 	<section id="aSearch-logo"></section>
@@ -12,37 +12,37 @@
 		<div id="left-form">
 			<form >
 				<p class="contact">
-					<label for="name">Name</label>
+					<label for="name">Τίτλος</label>
 				</p>
-				<input id="name" name="name" placeholder="First and last name" required type="text">
+				<input id="name" name="name" placeholder="Τίτλος" required type="text">
 
 				<p class="contact">
-					<label for="email">Email</label>
+					<label for="email">Εκδότης</label>
 				</p>
-				<input id="phone" name="phone" placeholder="phone number" required="" type="text">
+				<input id="phone" name="phone" placeholder="Εκδότης" required="" type="text">
 				<br>
 			</form>
 		</div>
 		<div id="right-form">
 			<form >
 				<p class="contact">
-					<label for="name">Name</label>
+					<label for="name">Κωδικός</label>
 				</p>
-				<input id="name" name="name" placeholder="First and last name" required type="text">
+				<input id="name" name="name" placeholder="Κωδικός" required type="text">
 
 				<p class="contact">
-					<label for="email">Email</label>
+					<label for="email">Έτος Εκδόσης</label>
 				</p>
-				<input id="phone" name="phone" placeholder="phone number" required="" type="text">
+				<input id="phone" name="phone" placeholder="Έτος" required="" type="text">
 				<br>
 			</form>
 		</div>
 		<div id="aSearch-bot">
-		<input class="buttom" name="submit" id="searchSubmit" tabindex="5" value="Sign me up!" type="submit">
+		<input class="buttom" name="submit" id="searchSubmit" tabindex="5" value="Αναζήτηση" type="submit">
 	</div>
 	</section><!-- content -->
 	<section id="aSearch-btn">
-		<a href="<?php echo PAGES; ?>/search">Simple Search</a>
-		<a href="<?php echo PAGES; ?>/register" >Help</a>
+		<a href="<?php echo PAGES; ?>/search">Απλή Αναζήτηση</a>
+		<a href="<?php echo PAGES; ?>/register" >Βοήθεια</a>
 	</section>
 </div>

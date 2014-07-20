@@ -38,15 +38,15 @@
 						<ul>
 							<li id="home">
 								<a href="<?php echo HOME; ?>"> <span class="icon"></span> <span
-								class="title">Home</span> </a>
+								class="title">Αρχική</span> </a>
 							</li>
 							<li id="about">
 								<a href="<?php echo PAGES; ?>/about"> <span class="icon"></span> <span
-								class="title">About</span> </a>
+								class="title">Σχετικά</span> </a>
 							</li>
 							<li id="contact">
 								<a href="<?php echo PAGES; ?>/contact"> <span class="icon"></span> <span
-								class="title">Contact</span> </a>
+								class="title">Επικοινωνία</span> </a>
 							</li>
 						</ul>
 					</nav>
@@ -54,7 +54,7 @@
 				<div id="head-right">
 					<div id="search">
 						<form method="post" action="<?php echo SEARCH; ?>/search">
-							<input name="name" placeholder="Search here" type="text" />
+							<input name="name" placeholder="Αναζήτηση Συγραμματός" type="text" />
 						</form>
 					</div>
 					<?php if (!isset($_SESSION['username'])): ?>
@@ -62,7 +62,7 @@
 						<p>
 							<a href="#popup">
 							<button id="login" href="#popup">
-								<span class="icon"></span><span class="text">Login</span>
+								<span class="icon"></span><span class="text">Είσοδος</span>
 							</button> </a>
 						</p>
 					</div>
@@ -78,17 +78,17 @@
 								<h1>Login Form</h1>
 								<form onsubmit="return check()" method="post" action="<?php echo USERS; ?>/login">
 									<div>
-										<input type="text" name="username" placeholder="Username" required="" id="username" />
+										<input type="text" name="username" placeholder="Όνομα Χρήστη" required="" id="username" />
 									</div>
 									<div>
-										<input type="password" name="password" placeholder="Password" required="" id="password" />
+										<input type="password" name="password" placeholder="Κωδικός" required="" id="password" />
 									</div>
 									<div>
 
-										<input type="submit" value="Log in" />
+										<input type="submit" value="Σύνδεση" />
 								</form>
-								<a href="#">Lost your password?</a>
-								<a href="<?php echo PAGES; ?>/register" >Register</a>
+								<a href="#">Ξεχάσατε τον κωδικό σας?</a>
+								<a href="<?php echo PAGES; ?>/register" >Εγγραφή</a>
 					</div>
 					</section><!-- content -->
 				</div>
@@ -98,7 +98,7 @@
 				<p>
 					<a href="#popup">
 					<button id="login" href="#popup">
-						<span class="icon"></span><span class="text">Profile</span>
+						<span class="icon"></span><span class="text">Προφίλ</span>
 					</button> </a>
 				</p>
 			</div>
@@ -111,10 +111,10 @@
 				<a href="#close" title="Close" class="close">X</a>
 
 				<section id="form">
-						<h1>Profile</h1>
-						<h5>Logged as, <?php echo $_SESSION['username']; ?></h5>
-						<a href="<?php echo PAGES; ?>/user"><button id="profilebtn" class="button">Profile</button></a>
-						<a href="<?php echo USERS; ?>/logout"><button id="logoutbtn" class="button">Logout</button></a>
+						<h1>Λειτουργίες</h1>
+						<h5>Είστε συνδεδεμένος ώς, <?php echo $_SESSION['username']; ?></h5>
+						<a href="<?php echo PAGES; ?>/user"><button id="profilebtn" class="button">Προφίλ</button></a>
+						<a href="<?php echo USERS; ?>/logout"><button id="logoutbtn" class="button">Αποσύνδεση</button></a>
 			</section><!-- content -->
 		</div>
 		</div>

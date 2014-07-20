@@ -2,38 +2,38 @@
 	<div id="top">
 		<!-- based on http://thecodeplayer.com/walkthrough/css3-breadcrumb-navigation-->
 		<div class="breadcrumb">
-			<a href="<?php echo HOME; ?>">Home</a>
-			<a href="#" class="active">Register</a>
+			<a href="<?php echo HOME; ?>">Αρχίκη</a>
+			<a href="#" class="active">Εγγράφη</a>
 		</div>
 	</div>
 	<form  id="registerContainer" method="post" action="<?php echo USERS; ?>/create">
 		<div  id="form1" class="registerform">
 			<div id="contactform">
 				<p class="contact">
-					<label for="name">Name</label>
+					<label for="name">Όνομα</label>
 				</p>
-				<input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text">
+				<input id="name" name="name" placeholder="Όνομα" required tabindex="1" type="text">
 
 				<p class="contact">
-					<label for="username">Create a username</label>
+					<label for="username">Username</label>
 				</p>
-				<input id="username" name="username" placeholder="username" required="" tabindex="2" type="text">
+				<input id="username" name="username" placeholder="Username" required tabindex="2" type="text">
 
 				<p class="contact">
-					<label for="password">Create a password</label>
+					<label for="password">Password</label>
 				</p>
-				<input type="password" id="password" name="password" required="">
+				<input type="password" id="password" name="password" required>
 
 				<p class="contact">
 					<label for="email">Email</label>
 				</p>
-				<input id="email" name="email" placeholder="example@domain.com" required="" type="email">
+				<input id="email" name="email" placeholder="example@domain.com" required type="email">
 
 				<select class="select-style gender" name="type">
-					<option value="select">i am..</option>
-					<option value="student">Student</option>
-					<option value="secretary">Secretary</option>
-					<option value="publisher">Publisher</option>
+					<option value="select">Τύπος</option>
+					<option value="student">Φοιτήτης</option>
+					<option value="secretary">Γραμματέας</option>
+					<option value="publisher">Εκδότης</option>
 				</select>
 
 			</div>
@@ -41,24 +41,24 @@
 		<div  id="form2" class="registerform">
 			<div id="contactform">
 				<p class="contact">
-					<label for="name">SurName</label>
+					<label for="name">Επώνυμο</label>
 				</p>
-				<input id="name" name="surname" placeholder="First and last name" required="" tabindex="1" type="text">
+				<input id="name" name="surname" placeholder="Επώνυμο" required tabindex="1" type="text">
 				<p class="contact">
-					<label for="phone">Mobile phone</label>
+					<label for="phone">Τηλέφωνο</label>
 				</p>
-				<input id="phone" name="phone" placeholder="phone number" required="" type="text">
+				<input id="phone" name="phone" placeholder="phone number" required type="text">
 				<p class="contact">
-					<label for="repassword">Confirm your password</label>
+					<label for="repassword">Επιβεβαίωση password</label>
 				</p>
-				<input type="repassword" id="repassword" name="repassword" required="">
+				<input type="repassword" id="repassword" name="repassword" required>
 				<br>
 			</div>
 		</div>
 		<div id="register-bot">
 
-			<input class="buttom" name="submit" id="submit" tabindex="5" value="Sign me up!" type="submit">
-			<a href="<?php echo PAGES; ?>/login">Already User?</a>
+			<input class="buttom" name="submit" id="submit" tabindex="5" value="Εγγραφή" type="submit">
+			<a href="<?php echo PAGES; ?>/login">Ήδη Χρήστης?</a>
 
 		</div>
 	</form>

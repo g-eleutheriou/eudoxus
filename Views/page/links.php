@@ -2,8 +2,8 @@
 	<div id="top">
 		<!-- based on http://thecodeplayer.com/walkthrough/css3-breadcrumb-navigation-->
 		<div class="breadcrumb">
-			<a href="<?php echo HOME; ?>">Home</a>
-			<a href="#" class="active">Links</a>
+			<a href="<?php echo HOME; ?>">Αρχίκη</a>
+			<a href="#" class="active">Χρήσιμα Links</a>
 		</div>
 	</div>
 	<div id="linkWrapper">

@@ -2,9 +2,9 @@
 	<div id="top">
 		<!-- based on http://thecodeplayer.com/walkthrough/css3-breadcrumb-navigation-->
 		<div class="breadcrumb">
-			<a href="<?php echo HOME; ?>">Home</a>
-			<a href="<?php echo PAGES; ?>/user">Profile</a>
-			<a href="#" class="active">Links</a>
+			<a href="<?php echo HOME; ?>">Αρχίκη</a>
+			<a href="<?php echo PAGES; ?>/user">Προφίλ</a>
+			<a href="#" class="active">Δηλώσεις</a>
 		</div>
 	</div>
 	<div id="historyWrapper">
@@ -13,26 +13,26 @@
 			<table class="tablesorter" id="historyTable1">
 				<thead>
 					<tr>
-						<th scope="col">Course</th>
-						<th scope="col">Semester</th>
-						<th scope="col">Book</th>
+						<th scope="col">Μαθήμα</th>
+						<th scope="col">Εξάμηνο</th>
+						<th scope="col">Βιβλίο</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>26/04/2013</td>
-						<td>Winter</td>
-						<td>check</td>
+						<td>ΠΡΑΓΜΑΤΟΛΟΓΙΑ</td>
+						<td>3 Χειμερίνο</td>
+						<td>Εισαγωγή στην πραγματολογία</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
 		<div>
 			<form id="Addbtn" onsubmit="return check()" method="get" action="<?php echo PAGES; ?>/bookSelect">
-				<input type="submit" value="Add" />
+				<input type="submit" value="Προσθήκη" />
 			</form>
 			<form id="continuebtn" onsubmit="return check()" method="get" action="<?php echo PAGES; ?>/historyForm2">
-				<input type="submit" value="Continue" />
+				<input type="submit" value="Ολοκλήρωση" />
 			</form>
 		</div>
 	</div>
