@@ -23,7 +23,7 @@ class UsersController extends Controller {
 		try {
 			$user = UserModel::getUserByUsername($username);
 			if (!is_null($user)) {
-				if ($user -> password == UserModel::getHash($password)) {
+				if ($user -> password == $password) {
 					$_SESSION['success_logged_in'] = true;
 					$_SESSION['username'] = $user -> username;
 					$_SESSION['id'] = $user -> id;

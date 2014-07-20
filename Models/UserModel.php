@@ -20,7 +20,7 @@ class UserModel extends Model {
 
 			$stmt -> bindValue(":name", $userObj -> name);
 			$stmt -> bindValue(":surname", $userObj -> surname);
-			$stmt -> bindValue(":password", static::getHash($userObj -> password));
+			$stmt -> bindValue(":password", $userObj -> password);
 			$stmt -> bindValue(":type", $userObj -> type);
 			$stmt -> bindValue(":email", $userObj -> email);
 			$stmt -> bindValue(":phone", $userObj -> phone);
@@ -45,7 +45,7 @@ class UserModel extends Model {
                                   WHERE id = :id");
 
 			$stmt -> bindValue(":username", $userObj -> username);
-			$stmt -> bindValue(":password", static::getHash($userObj -> password));
+			$stmt -> bindValue(":password", $userObj -> password);
 			$stmt -> bindValue(":email", $userObj -> email);
 			$stmt -> bindValue(":phone", $userObj -> phone);
 			$stmt -> bindValue(":id", $userObj -> id);
@@ -132,26 +132,6 @@ class UserModel extends Model {
 			throw $e;
 			//echo $e->getMessage();
 		}
-	}
-
-	public static function getHash($password) {
-
-		$pdo = Connector::getPDO();
-
-		try {
-
-			$stmt = $pdo -> prepare("SELECT SHA(:password)");
-
-			$stmt -> bindValue(":password", $password);
-			$stmt -> execute();
-
-			return $stmt -> fetchColumn();
-		} catch(PDOException $e) {
-			throw $e;
-			//echo $e->getMessage();
-		}
-
-		return NULL;
 	}
 
 }
