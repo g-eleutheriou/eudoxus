@@ -17,7 +17,7 @@ class SearchController extends Controller {
 	public function search() {
 
 		try {
-			$this -> view -> render('page', 'searchResults', BookModel::getBookByName($_GET['name']));
+			$this -> view -> render('page', 'searchResults', BookModel::getBookByName($_POST['name']));
 		} catch(Exception $ex) {
 			require_once 'PageController.php';
 			$page = new PageController;

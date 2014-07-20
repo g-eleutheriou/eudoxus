@@ -8,7 +8,7 @@
 	</div>
 	<section id="search-logo"></section>
 	<section id="search-form">
-		<form onsubmit="return check()" method="get" action="<?php echo SEARCH; ?>/search" class="form-wrapper cf">
+		<form onsubmit="return check()" method="post" action="<?php echo SEARCH; ?>/search" class="form-wrapper cf">
 			<input name="name" type="text" placeholder="Search here..." required>
 			<button type="submit">
 				Search

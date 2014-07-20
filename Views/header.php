@@ -53,7 +53,7 @@
 				</div>
 				<div id="head-right">
 					<div id="search">
-						<form method="get" action="<?php echo SEARCH; ?>/search">
+						<form method="post" action="<?php echo SEARCH; ?>/search">
 							<input name="name" placeholder="Search here" type="text" />
 						</form>
 					</div>
