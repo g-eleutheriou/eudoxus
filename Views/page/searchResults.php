@@ -51,9 +51,9 @@
 					echo "</table>";
 					echo "</div>";
 					echo "<div class=\"actions\">";
-					echo "<form id=\"Addbtn1\" onsubmit=\"return check()\" method=\"get\" action=\"\"><input type=\"submit\" value=\"Add for Register\" /></form>";
+					echo "<form id=\"Addbtn1\" onsubmit=\"return check()\" method=\"get\" action=\"\"><input type=\"submit\" value=\"Δήλωση\" /></form>";
 					echo "<form id=\"Addbtn2\" onsubmit=\"return check()\" method=\"get\" action=\"\">";
-					echo "<input type=\"submit\" value=\"Add for Exchange\" />";
+					echo "<input type=\"submit\" value=\"Ανταλλαγή\" />";
 					echo "</form>";
 					echo "</div>";
 					echo "</section></td>";

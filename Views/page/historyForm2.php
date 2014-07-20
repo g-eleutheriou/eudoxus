@@ -27,7 +27,7 @@
 		</div>
 		<div>
 			<form id="Addbtn" onsubmit="return check()" method="get" action="">
-				<input type="submit" value="Υπενθυμισή Κωδικού" />
+				<input type="submit" value="PIN" />
 			</form>
 			<form id="continuebtn" onsubmit="return check()" method="get" action="<?php echo PAGES; ?>/userEdit">
 				<input type="submit" value="Ολοκλήρωση" />

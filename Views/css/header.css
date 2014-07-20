@@ -129,11 +129,11 @@
 	color: #666;
 	float: left;
 	font-size: 11px;
-	margin: 35px 0 0 0;
+	margin: 25px 0 0 0;
 	opacity: 0.8;
 	outline: none;
 	padding: 3px 5px 3px 20px;
-	width: 50%;
+	width: 80%;
 	max-width: 150px;
 	/* CSS3 */
 	border-radius: 5px;
@@ -192,13 +192,15 @@
 	background: url(../img/person.png) no-repeat;
 	background-size: 100% 40px;
 	height: 40px;
-	margin-left: 2px;
+	margin-left: -3px;
 	float: left;
 	width: 35%;
 }
 
 #login .text {
-	margin: 10px 2px 0 2px;
+	font-size: 12px;
+	float: left;
+	margin: 10px 0 0 2px;
 	width: 50%;
 	float: left;
 	font-weight: bold;
@@ -353,10 +355,10 @@
 	float: left;
 	font: bold 15px Helvetica, Arial, sans-serif;
 	height: 35px;
-	margin: 20px 0 35px 15px;
+	margin: 20px 5px 35px 0px;
 	position: relative;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-	width: 120px;
+	width: 100px;
 }
 #form form input[type="submit"]:hover {
 	background: rgb(254,193,81);
@@ -369,7 +371,7 @@
 }
 #form form div a {
 	color: #004a80;
-	float: right;
+	float: left;
 	font-size: 12px;
 	margin: 30px 15px 0 0;
 	text-decoration: underline;

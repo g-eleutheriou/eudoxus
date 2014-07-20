@@ -86,10 +86,10 @@
 	float: left;
 	font: bold 15px Helvetica, Arial, sans-serif;
 	height: 35px;
-	margin: 40px 0 35px 15px;
+	margin: 40px 5px 35px 0px;
 	position: relative;
 	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-	width: 120px;
+	width: 100px;
 }
 #login-form form input[type="submit"]:hover {
 	background: rgb(254,193,81);
@@ -102,8 +102,8 @@
 }
 #login-form form a {
 	color: #004a80;
-	float: right;
-	font-size: 15px;
+	float: left;
+	font-size: 14px;
 	margin: 46px 0 0 10px;
 	text-decoration: underline;
 }
