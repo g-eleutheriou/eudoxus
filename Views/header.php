@@ -53,8 +53,8 @@
 				</div>
 				<div id="head-right">
 					<div id="search">
-						<form action="">
-							<input placeholder="Search here" type="text" />
+						<form method="get" action="<?php echo SEARCH; ?>/search">
+							<input name="name" placeholder="Search here" type="text" />
 						</form>
 					</div>
 					<?php if (!isset($_SESSION['username'])): ?>

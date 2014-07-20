@@ -7,8 +7,8 @@
 		</div>
 	</div>
 	<section id="results-form">
-		<form onsubmit="return check()" method="get" action="<?php echo PAGES; ?>/searchResults" class="form-wrapper cf">
-			<input type="text" placeholder="Search here..." required>
+		<form onsubmit="return check()" method="get" action="<?php echo SEARCH; ?>/search" class="form-wrapper cf">
+			<input name="name" type="text" placeholder="Search here..." required>
 			<button type="submit">
 				Search
 			</button>
@@ -28,44 +28,40 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td class="colID">1</td>
-						<td>
-						<section class="tableCol">
-							<div class="imageHolder"></div>
-							<div class="dataHolder">
-								<a href=""><h2>Test Book</h2></a>
-								<table id="simpleTable">
-									<tbody>
-										<tr>
-											<td>University:</td>
-											<td>EKPA</td>
-										</tr>
-										<tr>
-											<td>Departement:</td>
-											<td>D.I.T</td>
-										</tr>
-										<tr>
-											<td>Name:</td>
-											<td>George</td>
-										</tr>
-										<tr>
-											<td>Surname:</td>
-											<td>Eleutheriou</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-							<div class="actions">
-								<form id="Addbtn1" onsubmit="return check()" method="get" action="">
-									<input type="submit" value="Add for Register" />
-								</form>
-								<form id="Addbtn2" onsubmit="return check()" method="get" action="">
-									<input type="submit" value="Add for Exchange" />
-								</form>
-							</div>
-						</section></td>
-					</tr>
+					<?php
+					if (!empty($data)) {
+						foreach ($data as &$value) {
+					echo"<tr>";
+					echo "<td class=\"colID\">1</td><td>";
+					echo "<section class=\"tableCol\">";
+					echo "<div class=\"imageHolder\"></div>";
+					echo "<div class=\"dataHolder\">";
+					echo "<a href=\"\"><h5>". $value->name ."</h5></a>";
+					echo "<table id=\"simpleTable\">";
+					echo "<tbody>";
+					echo "<tr>";
+					echo "<td>Έτος:</td>";
+					echo "<td>" . $value->year . "</td>";
+					echo "</tr>";
+					echo "<tr>";
+					echo "<td>Συγγραφέας:</td>";
+					echo "<td>" . $value->writer . "</td>";
+					echo "</tr>";
+					echo "</tbody>";
+					echo "</table>";
+					echo "</div>";
+					echo "<div class=\"actions\">";
+					echo "<form id=\"Addbtn1\" onsubmit=\"return check()\" method=\"get\" action=\"\"><input type=\"submit\" value=\"Add for Register\" /></form>";
+					echo "<form id=\"Addbtn2\" onsubmit=\"return check()\" method=\"get\" action=\"\">";
+					echo "<input type=\"submit\" value=\"Add for Exchange\" />";
+					echo "</form>";
+					echo "</div>";
+					echo "</section></td>";
+					echo "</tr>";
+
+					}
+					}
+					?>
 				</tbody>
 			</table>
 		</div>
