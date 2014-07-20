@@ -1,0 +1,65 @@
+#linkIcon1 {	
+	background: url("../img/links1.png") no-repeat;
+	display: block;
+	width: 100px;
+	background-size: 100% 100px;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+#linkIcon2 {
+	background: url("../img/links2.png") no-repeat;
+	display: block;
+	width: 100px;
+	background-size: 100% 100px;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+#linkIcon3 {
+	background: url("../img/links3.png") no-repeat;
+	display: block;
+	width: 100px;
+	background-size: 100% 100px;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+#linkIcon4 {
+	background: url("../img/links4.png") no-repeat;
+	display: block;
+	width: 100px;
+	background-size: 100% 100px;
+	height: 100px;
+	text-indent: -9999px;
+}
+
+#linkWrapper {
+	margin: 50px auto 0 auto;
+	width:600px;
+	height:600px;
+	background-color: #badeee;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+}
+
+#linkWrapper h4 {
+	text-align: center;
+}
+
+#linkContainer {
+	margin: 60px auto 0 auto;
+	width:400px;
+	height:400px;
+	background-color: white;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+}
+
+#linkContainer table{
+	width: 90%;
+	height: 90%;
+	margin: 20px auto 0 auto;
+}

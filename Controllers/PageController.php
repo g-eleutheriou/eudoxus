@@ -63,6 +63,11 @@ require_once 'Controller.php';
  	{
  		$this->view->render('page','userEdit');
  	}
+	
+	public function links()
+ 	{
+ 		$this->view->render('page','links');
+ 	}
 
  	//generic error
  	public function error($value='')
