@@ -42,7 +42,7 @@
 	margin-top: 10px;
 	font-weight: bold;
 }
-.contact-form input[type="number"],input[type="text"], .contact-form input[type="email"], .contact-form textarea, .contact-form select {
+.contact-form input[type="number"], .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea, .contact-form select {
 	color: #888;
 	width: 70%;
 	padding: 0px 0px 0px 5px;
