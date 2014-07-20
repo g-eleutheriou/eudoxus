@@ -36,7 +36,7 @@ class BookModel extends Model {
 		$pdo = Connector::getPDO();
 
 		try {
-			$stmt = $pdo -> prepare("SELECT * FROM Book WHERE BINARY name = BINARY :name");
+			$stmt = $pdo -> prepare("SELECT * FROM Book WHERE  name LIKE :name");
 
 			$stmt -> bindValue(":name", $name);
 			$stmt -> execute();
