@@ -7,8 +7,7 @@
 		</div>
 	</div>
 	<div id="aboutWrapper">
-		<div id="aboutContainer">
-			
+		<div id="aboutContainer">	
 		</div>
 	</div>
 </div>
