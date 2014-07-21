@@ -85,6 +85,11 @@ require_once 'Controller.php';
  		$this->view->render('page','bookSelect');
  	}
 	
+	public function faq()
+ 	{
+ 		$this->view->render('page','faq');
+ 	}
+	
  	//generic error
  	public function error($value='')
  	{

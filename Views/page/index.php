@@ -9,7 +9,7 @@
 	<div id="bottom">
 		<div id="right-col">
 			<div id="btn1">
-				<a href="<?php echo PAGES; ?>/register">
+				<a href="<?php echo PAGES; ?>/user">
 				<button class="btn">
 					Δηλώσεις
 				</button> </a>
@@ -29,7 +29,7 @@
 				</button> </a>
 			</div>
 			<div id="btn4">
-				<a href="<?php echo PAGES; ?>/user">
+				<a href="<?php echo PAGES; ?>/faq">
 				<button class="btn">
 					Συχνές
 					<br>

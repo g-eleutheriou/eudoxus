@@ -23,6 +23,7 @@
 		<link href="<?php echo STYLES; ?>/links.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/historyForm1.css" rel="stylesheet">
 		<link href="<?php echo STYLES; ?>/bookSelect.css" rel="stylesheet">
+		<link href="<?php echo STYLES; ?>/faq.css" rel="stylesheet">
 		<script type="text/javascript" src="<?php echo JS; ?>/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/oneSimpleTablePaging-1.0.js"></script>
 		<script type="text/javascript" src="<?php echo JS; ?>/script.js"></script>
