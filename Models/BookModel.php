@@ -38,7 +38,7 @@ class BookModel extends Model {
 		try {
 			$stmt = $pdo -> prepare("SELECT * FROM Book WHERE  name LIKE :name");
 
-			$stmt -> bindValue(":name", $name);
+			$stmt -> bindValue(":name", "%".$name."%");
 			$stmt -> execute();
 
 			$booksColumns = $stmt -> fetchAll();
