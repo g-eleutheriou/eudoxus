@@ -133,7 +133,6 @@ class UsersController extends Controller {
 			$page = new PageController;
 		try {
 			$user = new User($_POST['name'], $_POST['surname'], $_POST['username'], $_POST['password'], $_POST['phone'], $_POST['type'], $_POST['email'], null);
-			print_r($user);
 			UserModel::create($user);
 			$page->index();
 			return false;
